@@ -5,13 +5,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+# Step 1
+git clone https://github.com/Chamidu788/NextJs-Pet-Shop.git
+# Step 2
+npm install
+# Step 3
+cd NextJs-Pet-Shop
+# Step 4
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
