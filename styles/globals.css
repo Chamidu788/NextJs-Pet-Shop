@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(255,250,240);
+}
+
+/* Add this to your CSS file (e.g., styles.css) */
+.pets-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+}
+
+.pet-card {
+  width: 45%; /* Width for desktop view */
+  margin: 8px;
+}
+
+@media (max-width: 360px) { /* For mobile devices */
+  .pet-card {
+      width: 100%; /* Full width for mobile */
+  }
+}
+
+@media (max-width: 480px) { /* For smaller mobile devices */
+  .pet-card {
+      width: 48%; /* Adjusting width to show 2 cards in one row */
+  }
+}
+
+body {
+  background-color: #fff; /* White background */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.banner {
+  position: relative;
+  z-index: 1; /* Ensure banner is above background */
+}
+
